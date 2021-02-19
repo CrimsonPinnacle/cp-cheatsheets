@@ -45,3 +45,19 @@ To list all currently set environment variable and their values use the followin
 ```
 Get-ChildItem -Path Env:* | Sort-Object Name
 ```
+
+## Check Hash Value
+
+Use the following cmdlet to check the hash value of a file:
+
+```
+Get-FileHash -Algorithm <hash_type> <file_name>
+```
+
+Default algorithm is `SHA256`.
+
+*Example:*
+
+```
+Get-FileHash MD5 testfile.txt
+```
