@@ -45,3 +45,13 @@ export DOCKER_CLI_EXPERIMENTAL=enabled
    ```
    docker manifest inspect testrepo/hello-multiarch:v1.0
    ```
+
+## Tag and Untag Images
+
+1. Remove a tag
+   ```
+   docker rmi <image>:<tag>
+   ```
+
+## Try it out with code sample
+You can try the above commands with the code samples available in the following folder [/code-samples/containers/building-container-images](../code-samples/containers/building-container-images/README.md)
