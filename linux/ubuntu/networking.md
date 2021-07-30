@@ -18,3 +18,5 @@ network:
 ```
 
 `$ sudo netplan apply` - applies the changes.
+
+`$ ip addr show eth0` - shows the IP address for the interface (assuming `eth0`).
